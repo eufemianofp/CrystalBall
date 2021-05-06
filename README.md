@@ -6,7 +6,14 @@ need mentoring the most.
 
 ## Prerequisites
 
-TBC
+Required R packages:
+- Rserve
+- Nozzle.R1
+- gdata
+- impute (BioConductor)
+- glmnet
+- reshape2
+- Run gdata::installXLSXsupport() in R terminal
 
 ## Usage
 
