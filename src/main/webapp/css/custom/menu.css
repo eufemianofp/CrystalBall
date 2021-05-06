@@ -1,0 +1,34 @@
+.landing h1, .landing p {
+	background-color: rgba(51, 51, 51, 0.11);
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+}
+
+.col-md-4 {
+	margin-top: 20px;
+}
+
+.col-md-4 a {
+	margin-left: 0.5em;
+	margin-right: auto;
+}
+
+.col-md-4 p {
+	text-align: justify;
+}
+
+img {
+	width: 100px;
+	heigth: 100px;
+	margin-left: 35%;
+}
+
+h2 {
+	text-align: center;
+}

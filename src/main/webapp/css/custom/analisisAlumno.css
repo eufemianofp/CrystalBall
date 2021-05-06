@@ -1,0 +1,54 @@
+.panel-default > .panel-heading {
+	background-color: #ddd;
+	font-weight: bold;
+}
+
+.list-group a {
+	color: #3A4855;
+	text-decoration: none;
+}
+
+.list-group p {
+	padding: 3%;
+}
+
+.list-group .activo {
+	font-weight: bold;
+}
+
+.list-group .inactivo {
+	font-weight: normal;
+}
+
+.list-group li:hover {
+	font-weight: bold;
+	background-color: #F1F1F1;
+}
+
+.btn-default.selected {
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}
+
+.suspenso {
+	color: #a94442;
+	background-color: #f2dede;
+}
+
+tr.suspenso:hover td {
+	background-color: #E6C0C0 !important;
+}
+
+.sobresaliente {
+	color: #3c763d;
+	background-color: #dff0d8;
+}
+
+tr.sobresaliente:hover td {
+	background-color: #C8DFBE !important;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+	background-color: #DBDBDB;
+}

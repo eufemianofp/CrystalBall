@@ -1,0 +1,29 @@
+#notasSubidas > li:before {
+	content: '✔';   
+    margin-right: .5em;
+}
+
+.list-group-item-success {
+  	padding: 3px 8px;
+  	margin-bottom: -1px;
+  	border: 1px solid #A8BDA0;
+}
+
+.list-group-item-danger {
+  	padding: 3px 8px;
+  	margin-bottom: -1px;
+  	border: 1px solid #C99C9B;
+}
+
+#notasPendientes > li.list-group-item-danger:before {
+	content: '✘';   
+    margin-right: .5em;
+}
+
+.col-md-4 p {
+	text-align: justify;
+}
+
+.col-md-5 p {
+	text-align: justify;
+}

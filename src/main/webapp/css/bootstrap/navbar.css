@@ -1,0 +1,107 @@
+.landing{
+  background-image: url('../../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.landing h1, .landing p{
+	color: white;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	-webkit-border-radius: 19px;
+  	-moz-border-radius: 19px;
+  	border-radius: 19px;
+}
+
+ /*Navigation*/
+.navbar-default {
+     background-color: #F8F8F8;
+     border-color: #E7E7E7;
+     margin-top: -1.5%;
+}
+ 
+@media (max-width:780px){
+	.navbar-default {
+	     margin-top: -2.2%;
+	 }
+}
+ 
+
+@media (max-width:480px){
+	.navbar-default {
+	     margin-top: -4%;
+	 }
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    border-bottom-color: #ffffff;
+
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+
+.navbar-default {
+	margin-bottom: 0px;
+}
+
+ul.nav.navbar-nav.navbar-right li:hover {
+	background-color: #E0E0E0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #C5C5C5;
+	font-weight: bold;
+}

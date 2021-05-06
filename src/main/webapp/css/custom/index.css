@@ -1,0 +1,26 @@
+.landing { 
+  background-image: url('../../img/bg.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing article{
+  background-color: rgba(201,201,201,0.91);
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 3%;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+}
+
+form{
+  color: #4b4b4b;
+}
+
+.landing button{
+  margin-left: 40%;
+}

@@ -1,0 +1,65 @@
+.new-graph .row {
+	margin-bottom: 10px;
+}
+
+.panel-group {
+	margin-bottom: 5px;
+}
+
+.panel-group a {
+	color: #333;
+}
+
+.panel-group h4 {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.panel-default .panel-heading {
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}
+
+.panel-group .panel-collapse .panel-body {
+	border-top: 1px solid #ddd;
+}
+
+#addedGraphs .panel-group:last-child {
+	margin-bottom: 20px;
+}
+
+#report input {
+	margin-bottom: 10px;
+}
+
+.badge.remove {
+	background-color: #d9534f;
+}
+
+.badge.remove:hover {
+	background-color: #BD3A36;
+}
+
+.badge.openReport:hover {
+	background-color: #7C7C7C;
+}
+
+a.list-group-item:hover {
+	font-weight: bold;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+	color: #fff;
+	background-color: #73ACDD;
+	border-color: #73ACDD;
+	font-weight: bold;
+}
+
+a.list-group-item.active>.badge.remove:hover, .nav-pills>.active>a>.badge.remove:hover {
+	background-color: #D5D5D5;
+}
+
+a.list-group-item.active>.badge.openReport:hover, .nav-pills>.active>a>.badge.openReport:hover {
+	background-color: #D5D5D5;
+}
