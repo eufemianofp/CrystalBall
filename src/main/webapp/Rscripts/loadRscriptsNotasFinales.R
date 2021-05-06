@@ -1,0 +1,8 @@
+source("Rscripts/cargarDatos.R")
+source("Rscripts/QuitarNa/1 ImputeValues.R")
+source("Rscripts/QuitarNa/2 SeparareImputar.R")
+source("Rscripts/actualizarNotasFinales/2 NotasFinalesAsignaturas.R")
+source("Rscripts/actualizarNotasFinales/3 DiferenciarAyete.R")
+source("Rscripts/actualizarNotasFinales/4 notaspeq.R")
+source("Rscripts/actualizarNotasFinales/5 IntroducirExAdmision.R")
+source("Rscripts/actualizarNotasFinales/6 ComunidadesAutonomas.R")
