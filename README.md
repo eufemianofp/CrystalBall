@@ -25,4 +25,4 @@ Required JAR files are handled by the Maven file pom.xml.
 
 ## License
 
-TBD
+GNU General Public License v3.0
